@@ -1,0 +1,62 @@
+Delivered-To: [REDACTED_NAME]
+Received: by 2002:a05:7108:1865:b0:570:d02d:f39f with SMTP id w5csp1576164gdw;
+        Mon, 15 Jun 2026 18:07:54 -0700 (PDT)
+Received: from store.bss0010.solarnodesys.biz.ua (sps.usta.com [85.121.55.246])
+        by mx.google.com with ESMTPS;
+        Mon, 15 Jun 2026 18:07:54 -0700 (PDT)
+
+Return-Path: <REDACTED@store.bss0010.solarnodesys.biz.ua>
+
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@wwEr.store.bss0010.solarnodesys.biz.ua;
+       spf=pass smtp.mailfrom=REDACTED@store.bss0010.solarnodesys.biz.ua;
+       dmarc=fail
+
+DKIM-Signature: v=1;
+ d=wwEr.store.bss0010.solarnodesys.biz.ua;
+ s=mail;
+
+From: [REDACTED_NAME]<alert-4712@tepyf.kuk>
+Sender: [REDACTED_NAME]@wwEr.store.bss0010.solarnodesys.biz.ua
+To: me@xviPI.yc
+Subject: FINAL NOTICE: Your cloud files will be deleted within 24 hours
+Date: Tue, 16 Jun 2026 02:20:00 +0200
+Message-ID: <alert-4712@tepyf.kuk>
+
+Content-Type: multipart/digest;
+ boundary="----=_Part_1_23456789"
+
+------=_Part_1_23456789
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Urgent: Action Required to Protect Your Cloud Data</title>
+</head>
+
+<body>
+
+<h2>Urgent: Action Required</h2>
+
+<p>We attempted to renew your Cloud+ subscription, but your payment method has expired.</p>
+
+<p>Your cloud data may be permanently removed if no action is taken.</p>
+
+<p><strong>Final Reminder</strong></p>
+
+<p>Your data will be deleted if no action is taken.</p>
+
+<a href="https://storage.googleapis.com/hmdbox/hmd-v1-cl2.html">
+Update Payment & Secure My Data
+</a>
+
+<p>Thank you,<br>
+Cloud Support Team</p>
+
+<a href="https://storage.googleapis.com/hmdbox/hmd-v1-cl2.html">
+Unsubscribe
+</a>
+
+</body>
+</html>

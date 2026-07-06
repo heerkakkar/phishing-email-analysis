@@ -1,0 +1,113 @@
+============================================================
+EXTRACTED EMAIL HEADERS
+============================================================
+
+Analysis Date: [6 JULY 2026]
+Source: suspicious_email.eml
+
+------------------------------------------------------------
+MESSAGE INFORMATION
+------------------------------------------------------------
+
+Subject:
+FINAL NOTICE: Your cloud files will be deleted within 24 hours
+
+Message-ID:
+<alert-4712@tepyf.kuk>
+
+Date:
+Tue, 16 Jun 2026 02:20:00 +0200
+
+Content-Type:
+multipart/digest
+
+Email Body:
+text/html; charset=utf-8
+
+------------------------------------------------------------
+SENDER INFORMATION
+------------------------------------------------------------
+
+Display Name:
+[REDACTED_NAME]
+
+From:
+alert-4712@tepyf.kuk
+
+Sender:
+[REDACTED_NAME]@wwEr.store.bss0010.solarnodesys.biz.ua
+
+Return-Path:
+[REDACTED_NAME]@store.bss0010.solarnodesys.biz.ua
+
+Delivered-To:
+[REDACTED]
+
+Recipient:
+me@xviPI.yc
+
+------------------------------------------------------------
+AUTHENTICATION RESULTS
+------------------------------------------------------------
+
+SPF:
+PASS
+
+Authorized Sending IP:
+85.121.55.246
+
+DKIM:
+PASS
+
+Signing Domain:
+wwEr.store.bss0010.solarnodesys.biz.ua
+
+DMARC:
+FAIL
+
+------------------------------------------------------------
+RECEIVED INFORMATION
+------------------------------------------------------------
+
+Sending Host:
+store.bss0010.solarnodesys.biz.ua
+
+Sending IP:
+85.121.55.246
+
+Receiving Mail Server:
+mx.google.com
+
+Transport Security:
+ESMTPS (TLS)
+
+------------------------------------------------------------
+IOC SUMMARY
+------------------------------------------------------------
+
+Sender Domain:
+tepyf.kuk
+
+Return-Path Domain:
+store.bss0010.solarnodesys.biz.ua
+
+DKIM Domain:
+wwEr.store.bss0010.solarnodesys.biz.ua
+
+IP Address:
+85.121.55.246
+
+Primary URL:
+https://storage.googleapis.com/hmdbox/hmd-v1-cl2.html
+
+------------------------------------------------------------
+NOTES
+------------------------------------------------------------
+
+- SPF validation passed.
+- DKIM signature verified successfully.
+- DMARC authentication failed due to domain alignment mismatch.
+- Email used HTML formatting.
+- Embedded URLs were hosted on Google Cloud Storage.
+- Personally identifiable information has been redacted.
+============================================================
