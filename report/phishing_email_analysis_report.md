@@ -8,13 +8,13 @@
 | Analysis Date | 06 July 2026 |
 | Case ID | PE-2026-001 |
 | Investigation Type | Phishing Email Investigation |
-| Evidence | Suspicious email exported as `.eml` |
+| Evidence | Suspicious phishing email exported as `.eml` |
 
 ---
 
 # Executive Summary
 
-> *To be completed after the investigation.*
+A suspicious email claiming that the recipient's cloud files would be permanently deleted within 24 hours was investigated. The email employed urgency, fear, and impersonation techniques to convince the recipient to click a malicious link hosted on Google Cloud Storage. Although SPF and DKIM authentication checks passed, DMARC validation failed due to domain misalignment, indicating possible sender spoofing. Threat intelligence analysis identified the sending IP as a hosted data center server with previous phishing reports. Based on the collected evidence, the email has been classified as a high-confidence phishing attempt.
 
 ---
 
@@ -53,55 +53,55 @@ This investigation includes:
 
 ## 1. Email Header Analysis
 
-> *See `analysis/02_header_analysis.md`*
+> See `analysis/02_header_analysis.md`
 
 ---
 
 ## 2. Sender Analysis
 
-> *See `analysis/03_sender_analysis.md`*
+> See `analysis/03_sender_analysis.md`
 
 ---
 
 ## 3. Authentication Analysis
 
-> *See `analysis/04_authentication_analysis.md`*
+> See `analysis/04_authentication_analysis.md`
 
 ---
 
 ## 4. URL Analysis
 
-> *See `analysis/05_url_analysis.md`*
+> See `analysis/05_url_analysis.md`
 
 ---
 
 ## 5. Domain Analysis
 
-> *See `analysis/07_domain_analysis.md`*
+> See `analysis/07_domain_analysis.md`
 
 ---
 
 ## 6. IP Reputation Analysis
 
-> *See `analysis/06_ip_analysis.md`*
+> See `analysis/06_ip_analysis.md`
 
 ---
 
 ## 7. Social Engineering Analysis
 
-> *See `analysis/08_social_engineering_analysis.md`*
+> See `analysis/08_social_engineering_analysis.md`
 
 ---
 
 # Indicators of Compromise (IOCs)
 
-> *See `indicators/iocs.md`*
+> See `indicators/iocs.md`
 
 ---
 
 # MITRE ATT&CK Mapping
 
-> *See `indicators/mitre_attack.md`*
+> See `indicators/mitre_attack.md`
 
 ---
 
@@ -109,21 +109,26 @@ This investigation includes:
 
 | Category | Result |
 |----------|--------|
-| Classification | To be determined |
-| Severity | To be determined |
-| Confidence | To be determined |
+| Classification | Phishing Email |
+| Severity | High |
+| Confidence | High |
 
 ---
 
 # Recommendations
 
-> *To be completed after the investigation.*
+- Do not click links or download attachments from suspicious emails.
+- Verify the sender's identity before responding to urgent requests.
+- Reject emails that fail DMARC authentication where appropriate.
+- Block identified malicious domains and IP addresses in email security solutions.
+- Monitor for similar Indicators of Compromise (IOCs) across the environment.
+- Educate users on common phishing techniques such as urgency, impersonation, and fear-based social engineering.
 
 ---
 
 # Conclusion
 
-> *To be completed after the investigation.*
+The investigation confirmed that the email is a phishing attempt designed to trick recipients into visiting a fraudulent payment page through a malicious link hosted on Google Cloud Storage. The attacker used multiple domains, social engineering tactics, and trusted cloud infrastructure to increase credibility. Although SPF and DKIM checks passed, the failed DMARC validation, suspicious sender domains, malicious infrastructure, and phishing-themed content strongly indicate malicious intent. Users should avoid interacting with the email and report similar messages to their security team.
 
 ---
 
@@ -139,4 +144,4 @@ This investigation includes:
 
 # Disclaimer
 
-This report was prepared for educational and portfolio purposes. All findings are based on evidence collected during the investigation and reflect observations made at the time of analysis.
+This report was prepared for educational and portfolio purposes. Personally identifiable information (PII) has been redacted to protect privacy. All findings are based on evidence collected during the investigation and reflect observations made at the time of analysis.
