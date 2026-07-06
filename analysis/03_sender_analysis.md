@@ -10,10 +10,10 @@ The objective of this phase is to analyze the sender identity information in the
 
 | Field | Value |
 |--------|-------|
-| Display Name |  |
-| From Address | alert-4712@tepyf.kuk |
-| Return-Path | vishalkakkar22@store.bss0010.solarnodesys.biz.ua |
-| Sender | vishalkakkar22@wwEr.store.bss0010.solarnodesys.biz.ua |
+| Display Name |  [REDACTED NAME] |
+| From Address | [REDACTED NAME] alert-4712@tepyf.kuk |
+| Return-Path | RECE@store.bss0010.solarnodesys.biz.ua |
+| Sender | [REDACTED NAME] @wwEr.store.bss0010.solarnodesys.biz.ua |
 
 ---
 
