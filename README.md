@@ -136,4 +136,4 @@ This repository was created for **educational and portfolio purposes**. Any doma
 
 **Heer Kakkar**
 
-Cybersecurity Student | SOC Analyst Aspirant | Ethical Hacking Enthusias
+Cybersecurity Student | SOC Analyst Aspirant | Ethical Hacking Enthusiast 
